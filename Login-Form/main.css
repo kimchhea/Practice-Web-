@@ -1,0 +1,105 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+.container{
+    width: 1200px;
+    height:600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    margin: auto;
+}
+.maina {
+    width:55%;
+    height:100%;
+    justify-content: center;
+    display:flex;
+    /* align-items:center; */
+    padding-top: 200px;
+    background-color: aliceblue;
+}
+.mainb {
+    width:43%;
+    height:100%;
+    margin:auto;
+}
+.text h1{
+color: rgb(69, 69, 205);
+font-size:50px;
+font-family: 'Facebook Letter Faces', sans-serif;
+
+}
+.text pre{
+    font-size:28px;
+    color: rgb(87, 86, 86);
+    font-family: 'Facebook Letter Faces', sans-serif;
+   
+}
+.box{
+    width:450px;
+    height:70%;
+    margin-top: 100px;
+    /* display: flex; */
+    background-color:aliceblue;
+    box-shadow: 0px 0px 2px 2px rgb(136, 136, 136) ;
+}
+.email{
+    width:400px;
+    margin-left: 23px;
+    margin-top: 20px;
+    font-family: 'Facebook Letter Faces', sans-serif;
+    height:50px;
+    border-radius: 5px;
+}
+.password{
+    width:400px;
+    /* background-color: antiquewhite; */
+    height:50px;
+    display: flex;
+    font-family: 'Facebook Letter Faces', sans-serif;
+    margin:auto;
+    border-radius: 5px;
+    margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.bottun{
+    width:400px;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* margin-left:110px; */
+    /* margin-top: 20px; */
+    margin: auto;
+    font-family: 'Facebook Letter Faces', sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color:rgb(19, 145, 218);
+}
+p{
+    color: rgb(19, 145, 218);
+    font-size: 17px;
+    padding-left: 160px;
+    padding-top: 20px;
+    font-family: 'Facebook Letter Faces', sans-serif;
+                                                
+}
+.bottuna{
+    width:250px;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+     margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: 'Facebook Letter Faces', sans-serif;
+    background-color:green;
+}
+.main{
+    width:100%;
+    height:900px;
+    display: flex;
+}
